@@ -1,8 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import GlobalNavigation from '@/components/GlobalNavigation'
 import {
   InteractiveFloatingElements,
   ScrollReveal,
@@ -14,6 +12,8 @@ import {
 import {
   AnimatedBackground
 } from '@/components/animations'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import GlobalNavigation from '@/components/GlobalNavigation'
 
 interface Testimonial {
   id: string
