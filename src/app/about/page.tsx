@@ -126,7 +126,7 @@ export default function About() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-16 items-center">
                 <ScrollReveal direction="left">
-                  <h2 className="text-4xl font-bold text-gray-900 mb-8 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  <h2 className="text-4xl font-bold text-gray-900 mb-8 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text">
                     My Journey
                   </h2>
                   <StaggeredList staggerDelay={0.1}>
