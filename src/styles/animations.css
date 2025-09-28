@@ -1,0 +1,191 @@
+/* Custom gradient definitions for animated backgrounds */
+
+/* Default theme gradients */
+:root {
+  --gradient-default-start: #6366f1;
+  --gradient-default-middle: #8b5cf6;
+  --gradient-default-end: #a855f7;
+  --gradient-default-blob-1: rgba(99, 102, 241, 0.15);
+  --gradient-default-blob-2: rgba(139, 92, 246, 0.15);
+  --gradient-default-blob-3: rgba(168, 85, 247, 0.15);
+}
+
+/* Italy theme gradients */
+:root {
+  --gradient-italy-start: #10b981;
+  --gradient-italy-middle: #059669;
+  --gradient-italy-end: #047857;
+  --gradient-italy-blob-1: rgba(16, 185, 129, 0.15);
+  --gradient-italy-blob-2: rgba(5, 150, 105, 0.15);
+  --gradient-italy-blob-3: rgba(4, 120, 87, 0.15);
+}
+
+/* UK theme gradients */
+:root {
+  --gradient-uk-start: #3b82f6;
+  --gradient-uk-middle: #6366f1;
+  --gradient-uk-end: #8b5cf6;
+  --gradient-uk-blob-1: rgba(59, 130, 246, 0.15);
+  --gradient-uk-blob-2: rgba(99, 102, 241, 0.15);
+  --gradient-uk-blob-3: rgba(139, 92, 246, 0.15);
+}
+
+/* About theme gradients */
+:root {
+  --gradient-about-start: #a855f7;
+  --gradient-about-middle: #ec4899;
+  --gradient-about-end: #f43f5e;
+  --gradient-about-blob-1: rgba(168, 85, 247, 0.15);
+  --gradient-about-blob-2: rgba(236, 72, 153, 0.15);
+  --gradient-about-blob-3: rgba(244, 63, 94, 0.15);
+}
+
+/* Contact theme gradients */
+:root {
+  --gradient-contact-start: #3b82f6;
+  --gradient-contact-middle: #6366f1;
+  --gradient-contact-end: #8b5cf6;
+  --gradient-contact-blob-1: rgba(59, 130, 246, 0.15);
+  --gradient-contact-blob-2: rgba(99, 102, 241, 0.15);
+  --gradient-contact-blob-3: rgba(139, 92, 246, 0.15);
+}
+
+/* Gradient utility classes */
+.bg-gradient-default-start {
+  background-color: var(--gradient-default-start);
+}
+
+.bg-gradient-default-middle {
+  background-color: var(--gradient-default-middle);
+}
+
+.bg-gradient-default-end {
+  background-color: var(--gradient-default-end);
+}
+
+.bg-gradient-default-blob-1 {
+  background-color: var(--gradient-default-blob-1);
+}
+
+.bg-gradient-default-blob-2 {
+  background-color: var(--gradient-default-blob-2);
+}
+
+.bg-gradient-default-blob-3 {
+  background-color: var(--gradient-default-blob-3);
+}
+
+.bg-gradient-italy-start {
+  background-color: var(--gradient-italy-start);
+}
+
+.bg-gradient-italy-middle {
+  background-color: var(--gradient-italy-middle);
+}
+
+.bg-gradient-italy-end {
+  background-color: var(--gradient-italy-end);
+}
+
+.bg-gradient-italy-blob-1 {
+  background-color: var(--gradient-italy-blob-1);
+}
+
+.bg-gradient-italy-blob-2 {
+  background-color: var(--gradient-italy-blob-2);
+}
+
+.bg-gradient-italy-blob-3 {
+  background-color: var(--gradient-italy-blob-3);
+}
+
+.bg-gradient-germany-start {
+  background-color: var(--gradient-germany-start);
+}
+
+.bg-gradient-germany-middle {
+  background-color: var(--gradient-germany-middle);
+}
+
+.bg-gradient-germany-end {
+  background-color: var(--gradient-germany-end);
+}
+
+.bg-gradient-germany-blob-1 {
+  background-color: var(--gradient-germany-blob-1);
+}
+
+.bg-gradient-germany-blob-2 {
+  background-color: var(--gradient-germany-blob-2);
+}
+
+.bg-gradient-germany-blob-3 {
+  background-color: var(--gradient-germany-blob-3);
+}
+
+.bg-gradient-about-start {
+  background-color: var(--gradient-about-start);
+}
+
+.bg-gradient-about-middle {
+  background-color: var(--gradient-about-middle);
+}
+
+.bg-gradient-about-end {
+  background-color: var(--gradient-about-end);
+}
+
+.bg-gradient-about-blob-1 {
+  background-color: var(--gradient-about-blob-1);
+}
+
+.bg-gradient-about-blob-2 {
+  background-color: var(--gradient-about-blob-2);
+}
+
+.bg-gradient-about-blob-3 {
+  background-color: var(--gradient-about-blob-3);
+}
+
+.bg-gradient-contact-start {
+  background-color: var(--gradient-contact-start);
+}
+
+.bg-gradient-contact-middle {
+  background-color: var(--gradient-contact-middle);
+}
+
+.bg-gradient-contact-end {
+  background-color: var(--gradient-contact-end);
+}
+
+.bg-gradient-contact-blob-1 {
+  background-color: var(--gradient-contact-blob-1);
+}
+
+.bg-gradient-contact-blob-2 {
+  background-color: var(--gradient-contact-blob-2);
+}
+
+.bg-gradient-contact-blob-3 {
+  background-color: var(--gradient-contact-blob-3);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced animation performance */
+.animate-smooth {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
